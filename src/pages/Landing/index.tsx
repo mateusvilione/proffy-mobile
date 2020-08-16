@@ -17,6 +17,10 @@ export default function Landing() {
         navigate('GiveClasses');
     }
 
+    function handleNavigateToStudyPage(){
+        navigate('Study');
+    }
+
     return (
         <View style={styles.container}>
             <Image source={landingImg} style={styles.banner} />
@@ -26,7 +30,7 @@ export default function Landing() {
             </Text>
 
             <View style={styles.buttonContainer}>
-                <TouchableOpacity style={[styles.button, styles.buttonPrimary]}>
+                <TouchableOpacity onPress={handleNavigateToStudyPage} style={[styles.button, styles.buttonPrimary]}>
                     <Image source={studyIcon} />
                     <Text style={styles.buttonText}>Estudar</Text>
                 </TouchableOpacity>

@@ -5,7 +5,7 @@ import styles from './styles';
 
 function Favorites(){
     return (
-        <View/>
+        <View style={styles.container}/>
     );
 }
 
