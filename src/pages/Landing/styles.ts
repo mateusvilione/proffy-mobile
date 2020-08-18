@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         fontSize: 20,
     },
     totalcontainer:{
-        fontFamily: 'Poppins_400regular',
+        fontFamily: 'Poppins_400Regular',
         color: '#d4c2ff',
         fontSize: 12,
         lineHeight: 20,
